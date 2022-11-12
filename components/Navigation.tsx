@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { styled } from '@/stitches'
 import { CSSProperties } from 'react'
@@ -13,9 +12,7 @@ export default function Navigation({ style, className }: NavigationProps) {
     <nav style={style} className={className}>
       <Wrapper>
         <HomeLinkWrapper>
-          <Link href="/">
-            <NavLink>NaN</NavLink>
-          </Link>
+          <NavLink href="https://nan.fyi">NaN</NavLink>
         </HomeLinkWrapper>
         <GithubLinkWrapper>
           <NavLink
